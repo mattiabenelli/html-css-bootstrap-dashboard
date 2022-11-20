@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) { /* tablet */
+    #topbar .row{
+        flex-direction: row-reverse;
+    }  
+}
+
+
+@media screen and (min-width: 992px) { /* tablet */
+    #col-sx{
+        width: 150px;
+    }
+    #col-dx{
+        width: calc(100% - 150px);
+    }  
+}

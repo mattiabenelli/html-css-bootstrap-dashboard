@@ -2,5 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aqua;
+}
+/* general */
+#col-sx{
+    width: 100px;
+    height: calc(100vh - 75px);
+    background-color: #051E34;
+}
+#col-dx{
+    width: calc(100% - 100px);
+    height: calc(100vh - 75px);
+    overflow-y: auto;
+}
+#general-container{
+    margin-top: 75px;
+}
+/* header e navbar */
+header{
+    height: 75px;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+header .content{
+    height: 60px;
+    background-color: antiquewhite;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: calc((75px - 60px) /2);
+}
+/* sidebar */
+
+/* topbar */
+#topbar{
+    background-color: #1B72E8;
+}
+#topbar .content{
+    height: 50px;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+/* main */
+#main{
+    background-color: burlywood;
+    width: 100%;
+    height: 100%;
+}
+#new-classes, #FAQ, #todo, #active-users{
+    height: 200px;
+    width: 100%;
+    background-color: azure;
+    border: solid black 1px;    
 }
