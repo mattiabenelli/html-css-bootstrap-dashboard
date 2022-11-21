@@ -31,7 +31,6 @@ header .content{
     background-color: antiquewhite;
     width: 100%;
     border: 1px solid black;
-    margin-top: calc((75px - 60px) /2);
 }
 /* sidebar */
 
