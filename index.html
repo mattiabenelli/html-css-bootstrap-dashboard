@@ -12,16 +12,36 @@
     </head>
     <body>
         <header class="d-flex align-items-center">
-            <div id="navbar" class="container-fluid"> <!-- navbar -->
-                <div class="row">
-                    <div class="col-auto">
-                        <div class="content"></div>
+            <div id="navbar" class="container-fluid d-flex align-items-center"> <!-- navbar -->
+                <div class="row w-100 align-items-center">
+                    <div class="col-auto d-flex align-items-center">
+                        <!-- logo-desktop -->
+                        <img class="d-none d-lg-block" src="./img/logo.svg" alt="logo">
+                        <!-- logo mobile -->
+                        <img class="height-logo d-lg-none" src="./img/mobile-logo.png" alt="">
                     </div>
                     <div class="col">
-                        <div class="content"></div>
+                        <div class="search-bar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="search-bar-input" placeholder="Prova a cercare: Lezioni di Larawell">
+                        </div>
                     </div>
                     <div class="col-auto">
-                        <div class="content"></div>
+                        <nav>
+                            <ul class="header-menu-list">
+                                <li><i class="fa-solid fa-list"></i></li>
+                                <li><i class="fa-solid fa-circle-question"></i></li>
+                                <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                                <li><i data-bs-toggle="dropdown" role="button" id="dropdownMenuBell" class="fa-solid fa-bell"></i>
+                                    <ul aria-labelledby="#dropdownMenuBell" class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
