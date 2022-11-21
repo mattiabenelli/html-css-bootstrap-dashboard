@@ -49,10 +49,8 @@ header .content{
     background-color: burlywood;
     width: 100%;
     height: 100%;
+    padding: 0;
 }
 #new-classes, #FAQ, #todo, #active-users{
-    height: 200px;
-    width: 100%;
-    background-color: azure;
-    border: solid black 1px;    
+    width: 100%;    
 }
