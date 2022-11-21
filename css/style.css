@@ -54,3 +54,26 @@ header .content{
 #new-classes, #FAQ, #todo, #active-users{
     width: 100%;    
 }
+.table-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #F26551;
+    font-size: 20px;
+    color: white;
+}
+.stato{
+    border-radius: 10px;
+    width: 50px;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 4px;
+}
+.stato-done{
+    background-color: #39986C;
+}
+#bottone-azione{
+    color: #6C757D;
+    border: 1px solid #6C757D;
+    background-color: transparent;
+}

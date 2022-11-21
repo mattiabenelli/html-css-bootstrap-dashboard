@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/media-query.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <title>Dashboard</title>
     </head>
     <body>
@@ -57,31 +58,32 @@
                                                         <table class="table">
                                                             <thead>
                                                               <tr>
-                                                                <th scope="col-sm-4">Nome</th>
-                                                                <th scope="col col-sm-none">Data inzio</th>
-                                                                <th scope="col d-sm-none">ROI</th>
-                                                                <th scope="col-sm-4">Stato</th>
-                                                                <th scope="col-sm-4">azioni</th>
+                                                                <th class="col col-md-4" scope="">Nome</th>
+                                                                <th class="col d-none d-md-table-cell col-md-2 text-center" scope="">Data inzio</th>
+                                                                <th class="col d-none d-md-table-cell col-md-2 text-center" scope="">ROI</th>
+                                                                <th class="col col-md-2 text-center" scope="">Stato</th>
+                                                                <th class="col col-md-2 text-center" scope="">azioni</th>
                                                               </tr>
                                                             </thead>
                                                             <tbody>
                                                               <tr>
-                                                                <th scope="row">1</th>
-                                                                <td>Mark</td>
-                                                                <td>Otto</td>
-                                                                <td>@mdo</td>
+                                                                <td class="col col-md-4">
+                                                                    <div class="container-name">
+                                                                        <div class="table-logo d-flex align-items-center justify-content-center"><i class="fa-solid fa-code"></i></div>
+                                                                        <div class="table-class">Classe 75</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="col d-none d-md-table-cell col-md-2 text-center">15 Feb 2021</td>
+                                                                <td class="col d-none d-md-table-cell col-md-2 text-center">20%</td>
+                                                                <td class="col col-md-2 text-center">
+                                                                    <div class="stato stato-done">Done</div>
+                                                                </td>
+                                                                <td class="col col-md-2 text-center">
+                                                                    <button id="bottone-azione" type="button" class="btn btn-primary "><i class="fa-solid fa-pen"></i></button>
+                                                                    <button id="bottone-azione" type="button" class="btn btn-primary"><i class="fa-solid fa-trash"></i></button>
+                                                                </td>
                                                               </tr>
-                                                              <tr>
-                                                                <th scope="row">2</th>
-                                                                <td>Jacob</td>
-                                                                <td>Thornton</td>
-                                                                <td>@fat</td>
-                                                              </tr>
-                                                              <tr>
-                                                                <th scope="row">3</th>
-                                                                <td colspan="2">Larry the Bird</td>
-                                                                <td>@twitter</td>
-                                                              </tr>
+                                                              
                                                             </tbody>
                                                           </table>
                                                     </div>
@@ -94,7 +96,7 @@
                                     <div id="FAQ" class="container-fluid">
                                         <div class="row">
                                             <div class="col">
-
+                                                
                                             </div>
                                         </div>
                                     </div>
