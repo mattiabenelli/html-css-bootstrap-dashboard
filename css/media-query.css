@@ -16,5 +16,11 @@
     }
     #col-dx{
         width: calc(100% - 150px);
+    }
+    .icon-text{
+        display: block;
+    }
+    .icon{
+        font-size: 20px;
     } 
 }
