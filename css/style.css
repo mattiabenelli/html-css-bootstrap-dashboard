@@ -12,7 +12,8 @@
 #col-dx{
     width: calc(100% - 100px);
     height: calc(100vh - 75px);
-    overflow-y: auto;
+    overflow-y: auto; /* da rivedere*/
+    overflow-x: hidden;
 }
 #general-container{
     margin-top: 75px;
@@ -64,13 +65,21 @@ header .content{
 }
 .stato{
     border-radius: 10px;
-    width: 50px;
+    width: 60px;
     margin: 0 auto;
     color: white;
-    padding-bottom: 4px;
+    padding: 0px 5px 4px 5px;
+    font-size: 15px;
+
 }
 .stato-done{
     background-color: #39986C;
+}
+.stato-process{
+    background-color: #FFC107;
+}
+.stato-failed{
+    background-color: #DC3545;
 }
 #bottone-azione{
     color: #6C757D;
