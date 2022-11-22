@@ -1,6 +1,12 @@
 @media screen and (min-width: 768px) { /* tablet */
-    #topbar .row{
-        flex-direction: row-reverse;
+    #first{
+        order: 3;
+    }
+    #second{
+        order: 1;
+    }
+    #third{
+        order: 2;
     }
     .container-name{
         display: flex;

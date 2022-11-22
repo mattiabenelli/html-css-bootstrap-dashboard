@@ -82,11 +82,27 @@ header{
 /* topbar */
 #topbar{
     background-color: #1B72E8;
+    padding: 30px 20px 30px ;
 }
 #topbar .content{
     height: 50px;
     border: 1px solid black;
     margin: 20px 0;
+}
+.container-col-topbar{
+    color: white;
+}
+#bottone-topbar{
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.tag{
+    background-color: #165BBA;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 /* main */
