@@ -153,3 +153,11 @@ header{
 #todo{
     margin-bottom: 30px;
 }
+
+/* hover */
+#main tr:hover{
+    background-color: #ECECEC;
+}
+.container-icon:hover{
+    background-color: #807d7d;
+}
