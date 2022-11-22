@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#offcanvas-override div{
+    visibility: visible;
+}
 /* general */
 #col-sx{
     width: 100px;
@@ -18,9 +20,6 @@
 }
 #general-container{
     padding-top: 75px;
-}
-.a{
-    visibility: visible;
 }
 /* header e navbar */
 header{
